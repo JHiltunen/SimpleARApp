@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         // put gltf, bin, jpg in assets
 
         ModelRenderable.builder()
-            .setSource(this, Uri.parse("demo.gltf"))
+            .setSource(this, Uri.parse("car.gltf"))
             .setIsFilamentGltf(true)
             .setAsyncLoadEnabled(true)
             .setRegistryId("Avocado")
